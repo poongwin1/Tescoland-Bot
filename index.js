@@ -4,8 +4,7 @@ const config = require("./config.json");
 const welcome = require("./welcome");
 
 client.on("ready", () => {
-  console.log("Our Discord bot is online");
-
+  console.log("Tescobot is online");
   welcome(client);
 });
 
