@@ -4,6 +4,7 @@ const config = require("./config.json");
 const welcome = require("./welcome");
 
 client.on("ready", () => {
+  client.user.setActivity('Find the shoplifter', { type: 'PLAYING' })
   console.log("Tescobot is online");
   welcome(client);
 });
